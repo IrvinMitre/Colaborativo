@@ -25,8 +25,8 @@
         }
     </style>
 </head>
-<body id="app-layout">
-    <nav class="navbar navbar-default navbar-static-top">
+<body id="app-layout" style="background-color: #F4F4F4;">
+    <nav class="navbar navbar-light" style="background-color: #A61520;">
         <div class="container">
             <div class="navbar-header">
 
@@ -39,8 +39,8 @@
                 </button>
 
                 <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    Laravel
+                <a class="navbar-brand" href="{{ url('/') }}" color="#000000">
+                    Team7
                 </a>
             </div>
 

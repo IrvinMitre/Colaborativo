@@ -26,7 +26,10 @@ return array(
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
     'App\\User' => $baseDir . '/app/User.php',
+<<<<<<< HEAD
     'Area' => $baseDir . '/database/migrations/2017_11_09_052027_area.php',
+=======
+>>>>>>> 8546047690ece8da9ee53cbb809ba4bc317ce636
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonInterval' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
     'Carbon\\Exceptions\\InvalidDateException' => $vendorDir . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
@@ -500,7 +503,10 @@ return array(
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',
     'File_Iterator_Factory' => $vendorDir . '/phpunit/php-file-iterator/src/Factory.php',
+<<<<<<< HEAD
     'Grupo' => $baseDir . '/database/migrations/2017_11_08_193336_grupo.php',
+=======
+>>>>>>> 8546047690ece8da9ee53cbb809ba4bc317ce636
     'GuzzleHttp\\Psr7\\AppendStream' => $vendorDir . '/guzzlehttp/psr7/src/AppendStream.php',
     'GuzzleHttp\\Psr7\\BufferStream' => $vendorDir . '/guzzlehttp/psr7/src/BufferStream.php',
     'GuzzleHttp\\Psr7\\CachingStream' => $vendorDir . '/guzzlehttp/psr7/src/CachingStream.php',
@@ -2179,7 +2185,10 @@ return array(
     'Prophecy\\Prophet' => $vendorDir . '/phpspec/prophecy/src/Prophecy/Prophet.php',
     'Prophecy\\Util\\ExportUtil' => $vendorDir . '/phpspec/prophecy/src/Prophecy/Util/ExportUtil.php',
     'Prophecy\\Util\\StringUtil' => $vendorDir . '/phpspec/prophecy/src/Prophecy/Util/StringUtil.php',
+<<<<<<< HEAD
     'Proyecto' => $baseDir . '/database/migrations/2017_11_08_060924_proyecto.php',
+=======
+>>>>>>> 8546047690ece8da9ee53cbb809ba4bc317ce636
     'Psr\\Http\\Message\\MessageInterface' => $vendorDir . '/psr/http-message/src/MessageInterface.php',
     'Psr\\Http\\Message\\RequestInterface' => $vendorDir . '/psr/http-message/src/RequestInterface.php',
     'Psr\\Http\\Message\\ResponseInterface' => $vendorDir . '/psr/http-message/src/ResponseInterface.php',

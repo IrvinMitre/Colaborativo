@@ -12,7 +12,12 @@ class Proyecto extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('proyecto', function (Blueprint $table) {
+            $table->increments('idProyecto');
+            $table->string('name')->unique();
+            $table->string('admin');
+         
+        });
     }
 
     /**
@@ -22,6 +27,6 @@ class Proyecto extends Migration
      */
     public function down()
     {
-        //
-    }
+         
+}
 }

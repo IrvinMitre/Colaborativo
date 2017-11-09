@@ -7,6 +7,10 @@
             <div class="panel panel-default">
                 <div class="panel-heading">  Bienvenido {{ Auth::user()->name }} </div>
                 	
+                                <tbody>
+                                   
+                                </tbody>
+                    
                 <div class="panel-body">
 
                 </div>

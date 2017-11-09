@@ -26,3 +26,7 @@ Route::get('/perfil', function(){
 Route::get('/proyecto', function(){
 	return view('Proyectos/proyect');
 });
+
+Route::get('/area', function(){
+	return view('area/area');
+});

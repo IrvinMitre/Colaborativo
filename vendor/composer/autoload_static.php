@@ -89,7 +89,6 @@ class ComposerStaticInit152662c195467964a1d46b2ab4b2bd6d
         ),
         'C' => 
         array (
-            'Cron\\' => 5,
             'ClassPreloader\\' => 15,
             'Carbon\\' => 7,
         ),
@@ -234,10 +233,6 @@ class ComposerStaticInit152662c195467964a1d46b2ab4b2bd6d
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
-        'Cron\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron',
-        ),
         'ClassPreloader\\' => 
         array (
             0 => __DIR__ . '/..' . '/classpreloader/classpreloader/src',
@@ -308,10 +303,7 @@ class ComposerStaticInit152662c195467964a1d46b2ab4b2bd6d
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
-<<<<<<< HEAD
         'Area' => __DIR__ . '/../..' . '/database/migrations/2017_11_09_052027_area.php',
-=======
->>>>>>> 8546047690ece8da9ee53cbb809ba4bc317ce636
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
@@ -332,16 +324,6 @@ class ComposerStaticInit152662c195467964a1d46b2ab4b2bd6d
         'ClassPreloader\\Parser\\StrictTypesVisitor' => __DIR__ . '/..' . '/classpreloader/classpreloader/src/Parser/StrictTypesVisitor.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
-        'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
-        'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
-        'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/DayOfMonthField.php',
-        'Cron\\DayOfWeekField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/DayOfWeekField.php',
-        'Cron\\FieldFactory' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/FieldFactory.php',
-        'Cron\\FieldInterface' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/FieldInterface.php',
-        'Cron\\HoursField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/HoursField.php',
-        'Cron\\MinutesField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/MinutesField.php',
-        'Cron\\MonthField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/MonthField.php',
-        'Cron\\YearField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/YearField.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'Doctrine\\Common\\Inflector\\Inflector' => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php',
         'Doctrine\\Instantiator\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/ExceptionInterface.php',
@@ -785,10 +767,7 @@ class ComposerStaticInit152662c195467964a1d46b2ab4b2bd6d
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
-<<<<<<< HEAD
         'Grupo' => __DIR__ . '/../..' . '/database/migrations/2017_11_08_193336_grupo.php',
-=======
->>>>>>> 8546047690ece8da9ee53cbb809ba4bc317ce636
         'GuzzleHttp\\Psr7\\AppendStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/AppendStream.php',
         'GuzzleHttp\\Psr7\\BufferStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/BufferStream.php',
         'GuzzleHttp\\Psr7\\CachingStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/CachingStream.php',
@@ -2467,10 +2446,7 @@ class ComposerStaticInit152662c195467964a1d46b2ab4b2bd6d
         'Prophecy\\Prophet' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Prophet.php',
         'Prophecy\\Util\\ExportUtil' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Util/ExportUtil.php',
         'Prophecy\\Util\\StringUtil' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Util/StringUtil.php',
-<<<<<<< HEAD
         'Proyecto' => __DIR__ . '/../..' . '/database/migrations/2017_11_08_060924_proyecto.php',
-=======
->>>>>>> 8546047690ece8da9ee53cbb809ba4bc317ce636
         'Psr\\Http\\Message\\MessageInterface' => __DIR__ . '/..' . '/psr/http-message/src/MessageInterface.php',
         'Psr\\Http\\Message\\RequestInterface' => __DIR__ . '/..' . '/psr/http-message/src/RequestInterface.php',
         'Psr\\Http\\Message\\ResponseInterface' => __DIR__ . '/..' . '/psr/http-message/src/ResponseInterface.php',

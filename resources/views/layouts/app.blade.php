@@ -16,25 +16,19 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
-
     footer {
-        background-color: #424242;
-        position: absolute;
-        bottom: 0;
+        background-color: #A61520;
         width: 100%;
-        height: 166px;
-        color: white;
+        height: 110px;
+        
     }
-  footer .imagen-footer img{
-      width: 100%;
-  }
-        body {
+          body {
             font-family: 'Lato';
         }
-
         .fa-btn {
             margin-right: 6px;
         }
+        
     </style>
 </head>
 <body id="app-layout" style="background-color: #F4F4F4;">
@@ -87,35 +81,11 @@
 
     @yield('content')
 
-    <footer>
+    <footer style="padding-bottom: 0;">
     
-        </div>
-            
-            <font color="white">
-                <div class="links de contacto col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                    <p><span class="glyphicon glyphicon-envelope"></span> Contáctanos</p>
-                </div>
-            </font>
-           
-        
-         
-            <font color="white">
-                <div class="links de contacto col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                    <p><span class="glyphicon glyphicon-leaf"></span> Acerca de</p>
-                </div>
-            </font>
-           
-            
-           
-            <font color="white">
-                <div class="links de contacto col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                    <p><span class="glyphicon glyphicon-question-sign"></span> FAQ's</p>
-                </div>
-            </font>
-        
-            
+        </div>  
             <div align="right" class="links de contacto col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                <p>Powered by BioPEB &copy 2017</p>
+                <p>Powered by Team7 &copy 2017</p>
             </div>
         </font>
     </div>

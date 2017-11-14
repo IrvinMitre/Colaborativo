@@ -16,8 +16,8 @@ class Grupo extends Migration
             $table->increments('idG');
             $table->integer('idProyecto')->unsigned();
             $table->foreign('idProyecto')->references('idProyecto')->on('proyecto')->onDelete('cascade');
-            $table->string('name')->unsigned();
-            $table->foreign('name')->references('name')->on('users')->onDelete('cascade');
+            $table->string('id')->unsigned();  
+            $table->foreign('id')->references('id')->on('users')->onDelete('cascade');
             
         });
     }

@@ -14,9 +14,12 @@ class Area extends Migration
     {
         Schema::create('area', function (Blueprint $table) {
             $table->increments('idA');
-            $table->integer('idG')->unsigned();
-            $table->foreign('idG')->references('idG')->on('grupo')->onDelete('cascade');
-            $table->string('codigo');
+            $table->integer('idB')->default(null);
+            $table->integer('idProyecto')->unsigned();
+            $table->foreign('idProyecto')->references('idProyecto')->on('grupo')->onDelete('cascade');
+            $table->string('id')->unsigned();  
+            $table->foreign('id')->references('id')->on('grupo')->onDelete('cascade');
+            $table->string('codigo', 3000);
            
         });
     }

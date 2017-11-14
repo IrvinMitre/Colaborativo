@@ -14,7 +14,7 @@ class Proyecto extends Migration
     {
         Schema::create('proyecto', function (Blueprint $table) {
             $table->increments('idProyecto');
-            $table->string('name')->unique();
+            $table->string('nombre')->unique();
             $table->string('colaboradores');
             $table->string('admin');
 
